@@ -1,0 +1,2086 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "serialNumber": "urn:uuid:20260112094542",
+  "metadata": {
+    "timestamp": "2026-01-12T09:45:42.022086Z",
+    "tools": [
+      {
+        "vendor": "Engineering Software Lab (ESL)",
+        "name": "ESL SBOMator",
+        "version": "1.2.2"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "nRF5_SDK_17.1.0_ddde560",
+      "version": "17.1.0"
+    },
+    "properties": [
+      {
+        "name": "esl:sdk_type",
+        "value": "nordic_nrf5"
+      },
+      {
+        "name": "esl:analysis_method",
+        "value": "embedded_sdk_workflow"
+      },
+      {
+        "name": "esl:binary_analysis",
+        "value": "True"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "nRF CC310",
+      "version": "0.9.13",
+      "purl": "pkg:generic/nrf-cc310@0.9.13",
+      "supplier": {
+        "name": "Nordic Semiconductor / ARM"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Nordic-5-Clause"
+          }
+        }
+      ],
+      "description": "ARM CryptoCell CC310 crypto library",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\external"
+        }
+      ],
+      "bom-ref": "comp-0"
+    },
+    {
+      "type": "library",
+      "name": "nRF Oberon",
+      "version": "3.0.8",
+      "purl": "pkg:generic/nrf-oberon@3.0.8",
+      "supplier": {
+        "name": "Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Nordic-5-Clause"
+          }
+        }
+      ],
+      "description": "Oberon cryptographic library (optimized ECC/AES)",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\external"
+        }
+      ],
+      "bom-ref": "comp-1"
+    },
+    {
+      "type": "library",
+      "name": "CMSIS-DSP (Cortex-M4 with FPU)",
+      "version": "5.x",
+      "purl": "pkg:generic/cmsis-dsp@5.0",
+      "supplier": {
+        "name": "ARM"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "description": "ARM CMSIS DSP library for Cortex-M4 with FPU",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\components\\toolchain\\cmsis\\dsp\\ARM"
+        }
+      ],
+      "cpe": "cpe:2.3:a:arm:cmsis:5.0:*:*:*:*:*:*:*",
+      "bom-ref": "comp-2"
+    },
+    {
+      "type": "library",
+      "name": "CMSIS-DSP (Cortex-M4 without FPU)",
+      "version": "5.x",
+      "purl": "pkg:generic/cmsis-dsp@5.0",
+      "supplier": {
+        "name": "ARM"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "description": "ARM CMSIS DSP library for Cortex-M4 without FPU",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\components\\toolchain\\cmsis\\dsp\\ARM"
+        }
+      ],
+      "cpe": "cpe:2.3:a:arm:cmsis:5.0:*:*:*:*:*:*:*",
+      "bom-ref": "comp-3"
+    },
+    {
+      "type": "library",
+      "name": "IEEE 802.15.4 Stack",
+      "version": "unknown",
+      "purl": "pkg:generic/nordic-802.15.4@unknown",
+      "supplier": {
+        "name": "Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Nordic-5-Clause"
+          }
+        }
+      ],
+      "description": "IEEE 802.15.4 radio protocol stack",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\components"
+        }
+      ],
+      "bom-ref": "comp-4"
+    },
+    {
+      "type": "library",
+      "name": "Gazell",
+      "version": "unknown",
+      "purl": "pkg:generic/nordic-gazell@unknown",
+      "supplier": {
+        "name": "Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Nordic-5-Clause"
+          }
+        }
+      ],
+      "description": "Nordic Gazell proprietary RF protocol",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\examples\\proprietary_rf"
+        }
+      ],
+      "bom-ref": "comp-5"
+    },
+    {
+      "type": "library",
+      "name": "SoftDevice S112",
+      "version": "7.2.0",
+      "purl": "pkg:generic/nordic-s112@7.2.0",
+      "supplier": {
+        "name": "Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Nordic-5-Clause"
+          }
+        }
+      ],
+      "description": "Bluetooth LE peripheral-only SoftDevice",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "softdevice"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\components\\softdevice\\s112\\hex"
+        }
+      ],
+      "bom-ref": "comp-6"
+    },
+    {
+      "type": "library",
+      "name": "SoftDevice S113",
+      "version": "7.2.0",
+      "purl": "pkg:generic/nordic-s113@7.2.0",
+      "supplier": {
+        "name": "Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Nordic-5-Clause"
+          }
+        }
+      ],
+      "description": "Bluetooth LE peripheral SoftDevice with LESC",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "softdevice"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\components\\softdevice\\s113\\hex"
+        }
+      ],
+      "bom-ref": "comp-7"
+    },
+    {
+      "type": "library",
+      "name": "SoftDevice S132",
+      "version": "7.2.0",
+      "purl": "pkg:generic/nordic-s132@7.2.0",
+      "supplier": {
+        "name": "Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Nordic-5-Clause"
+          }
+        }
+      ],
+      "description": "Bluetooth LE central/peripheral SoftDevice",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "softdevice"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\components\\softdevice\\s132\\hex"
+        }
+      ],
+      "bom-ref": "comp-8"
+    },
+    {
+      "type": "library",
+      "name": "SoftDevice S140",
+      "version": "7.2.0",
+      "purl": "pkg:generic/nordic-s140@7.2.0",
+      "supplier": {
+        "name": "Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Nordic-5-Clause"
+          }
+        }
+      ],
+      "description": "Bluetooth 5 SoftDevice for nRF52840",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "softdevice"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\components\\softdevice\\s140\\hex"
+        }
+      ],
+      "bom-ref": "comp-9"
+    },
+    {
+      "type": "library",
+      "name": "cJSON",
+      "version": "unknown",
+      "purl": "pkg:generic/cJSON@unknown",
+      "supplier": {
+        "name": "Dave Gamble"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "description": "Ultralightweight JSON parser in ANSI C",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\external\\cJSON"
+        }
+      ],
+      "bom-ref": "comp-10"
+    },
+    {
+      "type": "library",
+      "name": "FatFs",
+      "version": "unknown",
+      "purl": "pkg:generic/fatfs@unknown",
+      "supplier": {
+        "name": "ChaN"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-1-Clause"
+          }
+        }
+      ],
+      "description": "FAT filesystem module",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "middleware"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\external\\fatfs"
+        }
+      ],
+      "bom-ref": "comp-11"
+    },
+    {
+      "type": "library",
+      "name": "FreeRTOS",
+      "version": "9.0.0",
+      "purl": "pkg:generic/freertos@9.0.0",
+      "supplier": {
+        "name": "Amazon Web Services"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "description": "Real-time operating system kernel",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "middleware"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\external\\freertos"
+        }
+      ],
+      "bom-ref": "comp-12"
+    },
+    {
+      "type": "library",
+      "name": "FreeRTOS-Kernel",
+      "version": "9.0.0",
+      "purl": "pkg:generic/freertos-kernel@9.0.0",
+      "supplier": {
+        "name": "Amazon Web Services"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "description": "FreeRTOS real-time kernel",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "middleware"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\external\\freertos\\source\\include"
+        }
+      ],
+      "bom-ref": "comp-13"
+    },
+    {
+      "type": "library",
+      "name": "lwIP",
+      "version": "unknown",
+      "purl": "pkg:generic/lwip@unknown",
+      "supplier": {
+        "name": "Swedish Institute of Computer Science"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "description": "Lightweight TCP/IP stack",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "middleware"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\external\\lwip"
+        }
+      ],
+      "bom-ref": "comp-14"
+    },
+    {
+      "type": "library",
+      "name": "Mbed TLS",
+      "version": "2.16.10",
+      "purl": "pkg:generic/mbedtls@2.16.10",
+      "supplier": {
+        "name": "ARM"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "description": "TLS/SSL and cryptography library",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\external\\mbedtls"
+        }
+      ],
+      "bom-ref": "comp-15"
+    },
+    {
+      "type": "library",
+      "name": "micro-ecc",
+      "version": "unknown",
+      "purl": "pkg:generic/micro-ecc@unknown",
+      "supplier": {
+        "name": "Ken MacKay"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "description": "ECDH and ECDSA for 8-bit, 32-bit, and 64-bit processors",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\external\\micro-ecc"
+        }
+      ],
+      "bom-ref": "comp-16"
+    },
+    {
+      "type": "library",
+      "name": "SEGGER RTT",
+      "version": "unknown",
+      "purl": "pkg:generic/segger_rtt@unknown",
+      "supplier": {
+        "name": "SEGGER Microcontroller"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "SEGGER-RTT"
+          }
+        }
+      ],
+      "description": "Real-Time Transfer for embedded systems",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\external\\segger_rtt"
+        }
+      ],
+      "bom-ref": "comp-17"
+    },
+    {
+      "type": "library",
+      "name": "Tile Library",
+      "version": "sdk-17.1.0",
+      "purl": "pkg:generic/tile@sdk-17.1.0",
+      "supplier": {
+        "name": "Tile Inc"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Proprietary"
+          }
+        }
+      ],
+      "description": "Tile tracking integration library",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\external\\tile"
+        }
+      ],
+      "bom-ref": "comp-18"
+    },
+    {
+      "type": "library",
+      "name": "NFC Type 2 Tag Library",
+      "version": "17.1.0",
+      "purl": "pkg:generic/nordic-nfc_t2t_lib@17.1.0",
+      "supplier": {
+        "name": "Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Nordic-5-Clause"
+          }
+        }
+      ],
+      "description": "NFC Type 2 Tag emulation library",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\components\\nfc\\t2t_lib"
+        }
+      ],
+      "bom-ref": "comp-19"
+    },
+    {
+      "type": "library",
+      "name": "NFC Type 4 Tag Library",
+      "version": "17.1.0",
+      "purl": "pkg:generic/nordic-nfc_t4t_lib@17.1.0",
+      "supplier": {
+        "name": "Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Nordic-5-Clause"
+          }
+        }
+      ],
+      "description": "NFC Type 4 Tag emulation library",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\components\\nfc\\t4t_lib"
+        }
+      ],
+      "bom-ref": "comp-20"
+    },
+    {
+      "type": "library",
+      "name": "oberon_3.0.8",
+      "version": "3.0.8",
+      "purl": "pkg:generic/oberon_3.0.8@3.0.8",
+      "supplier": {
+        "name": "Unknown"
+      },
+      "licenses": [],
+      "description": "",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\external\\nrf_oberon\\lib\\cortex-m4\\hard-float"
+        }
+      ],
+      "bom-ref": "comp-21"
+    },
+    {
+      "type": "library",
+      "name": "oberon_mbedtls_3.0.8",
+      "version": "3.0.8",
+      "purl": "pkg:generic/oberon_mbedtls_3.0.8@3.0.8",
+      "supplier": {
+        "name": "Unknown"
+      },
+      "licenses": [],
+      "description": "",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\external\\nrf_oberon\\lib\\cortex-m4\\hard-float"
+        }
+      ],
+      "bom-ref": "comp-22"
+    },
+    {
+      "type": "library",
+      "name": "",
+      "version": "unknown",
+      "purl": "pkg:generic/@unknown",
+      "supplier": {
+        "name": "Unknown"
+      },
+      "licenses": [],
+      "description": "",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\components\\toolchain\\cmsis\\dsp\\GCC"
+        }
+      ],
+      "bom-ref": "comp-23"
+    },
+    {
+      "type": "library",
+      "name": "Gazell",
+      "version": "unknown",
+      "purl": "pkg:generic/gzll@unknown",
+      "supplier": {
+        "name": "Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Nordic-5-Clause"
+          }
+        }
+      ],
+      "description": "Nordic Gazell proprietary RF protocol",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\components\\proprietary_rf\\gzll\\gcc"
+        }
+      ],
+      "bom-ref": "comp-24"
+    },
+    {
+      "type": "library",
+      "name": "IEEE 802.15.4 Stack",
+      "version": "unknown",
+      "purl": "pkg:generic/802_15_4_lib@unknown",
+      "supplier": {
+        "name": "Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Nordic-5-Clause"
+          }
+        }
+      ],
+      "description": "IEEE 802.15.4 radio protocol stack",
+      "properties": [
+        {
+          "name": "nordic:component_type",
+          "value": "library"
+        },
+        {
+          "name": "nordic:path",
+          "value": "C:\\LTS-QA\\NRF-SDK\\nRF5_SDK_17.1.0_ddde560\\components\\802_15_4\\raw"
+        }
+      ],
+      "bom-ref": "comp-25"
+    },
+    {
+      "type": "library",
+      "name": "Oberon Crypto Library",
+      "version": "detected",
+      "supplier": {
+        "name": "Octo AS / Nordic Semiconductor"
+      },
+      "properties": [
+        {
+          "name": "detection:method",
+          "value": "symbol_analysis"
+        },
+        {
+          "name": "detection:confidence",
+          "value": "1.0"
+        },
+        {
+          "name": "detection:matched_symbols",
+          "value": "327"
+        },
+        {
+          "name": "detection:source_library",
+          "value": "liboberon_3.0.8"
+        }
+      ],
+      "purl": "pkg:generic/oberon@detected",
+      "bom-ref": "comp-26"
+    },
+    {
+      "type": "library",
+      "name": "Oberon Crypto Library",
+      "version": "3.0.8",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "330"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "431"
+        },
+        {
+          "name": "binary:members",
+          "value": "54"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "liboberon_3.0.8"
+        }
+      ],
+      "purl": "pkg:generic/liboberon_3.0.8@3.0.8",
+      "supplier": {
+        "name": "Octo AS / Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "description": "Optimized cryptographic library for ARM Cortex-M",
+      "bom-ref": "comp-27"
+    },
+    {
+      "type": "library",
+      "name": "Oberon Crypto Library",
+      "version": "3.0.8",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "46"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "59"
+        },
+        {
+          "name": "binary:members",
+          "value": "8"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "liboberon_mbedtls_3.0.8"
+        }
+      ],
+      "purl": "pkg:generic/liboberon_mbedtls_3.0.8@3.0.8",
+      "supplier": {
+        "name": "Octo AS / Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "description": "Optimized cryptographic library for ARM Cortex-M",
+      "bom-ref": "comp-28"
+    },
+    {
+      "type": "library",
+      "name": "nRF CC310 Crypto Library",
+      "version": "0.9.13",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "138"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "106"
+        },
+        {
+          "name": "binary:members",
+          "value": "26"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "libnrf_cc310_bl_0.9.13"
+        }
+      ],
+      "purl": "pkg:generic/libnrf_cc310_bl_0.9.13@0.9.13",
+      "supplier": {
+        "name": "Nordic Semiconductor / ARM"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Proprietary"
+          }
+        }
+      ],
+      "description": "ARM CryptoCell 310 driver for nRF52/nRF53",
+      "bom-ref": "comp-29"
+    },
+    {
+      "type": "library",
+      "name": "nRF CC310 Crypto Library",
+      "version": "0.9.13",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "327"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "588"
+        },
+        {
+          "name": "binary:members",
+          "value": "93"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "libnrf_cc310_0.9.13"
+        }
+      ],
+      "purl": "pkg:generic/libnrf_cc310_0.9.13@0.9.13",
+      "supplier": {
+        "name": "Nordic Semiconductor / ARM"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Proprietary"
+          }
+        }
+      ],
+      "description": "ARM CryptoCell 310 driver for nRF52/nRF53",
+      "bom-ref": "comp-30"
+    },
+    {
+      "type": "library",
+      "name": "libarm_cortexM4lf_math",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "449"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "538"
+        },
+        {
+          "name": "binary:members",
+          "value": "272"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "libarm_cortexM4lf_math"
+        }
+      ],
+      "purl": "pkg:generic/libarm_cortexM4lf_math@sdk-17.1.0",
+      "bom-ref": "comp-31"
+    },
+    {
+      "type": "library",
+      "name": "libarm_cortexM4l_math",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "449"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "700"
+        },
+        {
+          "name": "binary:members",
+          "value": "272"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "libarm_cortexM4l_math"
+        }
+      ],
+      "purl": "pkg:generic/libarm_cortexM4l_math@sdk-17.1.0",
+      "bom-ref": "comp-32"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf51_gcc",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv6s-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "183"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "134"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf51_gcc"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf51_gcc@sdk-17.1.0",
+      "bom-ref": "comp-33"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf51_sd_resources_gcc",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv6s-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "183"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "134"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf51_sd_resources_gcc"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf51_sd_resources_gcc@sdk-17.1.0",
+      "bom-ref": "comp-34"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52810_gcc",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "188"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "138"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52810_gcc"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52810_gcc@sdk-17.1.0",
+      "bom-ref": "comp-35"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52810_sd_resources_gcc",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "188"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "138"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52810_sd_resources_gcc"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52810_sd_resources_gcc@sdk-17.1.0",
+      "bom-ref": "comp-36"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52811_gcc",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "188"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "138"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52811_gcc"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52811_gcc@sdk-17.1.0",
+      "bom-ref": "comp-37"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52811_sd_resources_gcc",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "188"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "138"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52811_sd_resources_gcc"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52811_sd_resources_gcc@sdk-17.1.0",
+      "bom-ref": "comp-38"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52840_gcc",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "188"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "138"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52840_gcc"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52840_gcc@sdk-17.1.0",
+      "bom-ref": "comp-39"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52840_sd_resources_gcc",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "188"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "138"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52840_sd_resources_gcc"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52840_sd_resources_gcc@sdk-17.1.0",
+      "bom-ref": "comp-40"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52_gcc",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "188"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "138"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52_gcc"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52_gcc@sdk-17.1.0",
+      "bom-ref": "comp-41"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52_sd_resources_gcc",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "188"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "138"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52_sd_resources_gcc"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52_sd_resources_gcc@sdk-17.1.0",
+      "bom-ref": "comp-42"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf51_iar",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv6s-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "183"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "136"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf51_iar"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf51_iar@sdk-17.1.0",
+      "bom-ref": "comp-43"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf51_sd_resources_iar",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv6s-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "183"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "136"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf51_sd_resources_iar"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf51_sd_resources_iar@sdk-17.1.0",
+      "bom-ref": "comp-44"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52840_iar",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "188"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "140"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52840_iar"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52840_iar@sdk-17.1.0",
+      "bom-ref": "comp-45"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52840_sd_resources_iar",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "188"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "140"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52840_sd_resources_iar"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52840_sd_resources_iar@sdk-17.1.0",
+      "bom-ref": "comp-46"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52_iar",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "188"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "140"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52_iar"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52_iar@sdk-17.1.0",
+      "bom-ref": "comp-47"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52_sd_resources_iar",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "188"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "140"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52_sd_resources_iar"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52_sd_resources_iar@sdk-17.1.0",
+      "bom-ref": "comp-48"
+    },
+    {
+      "type": "library",
+      "name": "802_15_4_lib_gcc",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "536"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "914"
+        },
+        {
+          "name": "binary:members",
+          "value": "81"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "802_15_4_lib_gcc"
+        }
+      ],
+      "purl": "pkg:generic/802_15_4_lib_gcc@sdk-17.1.0",
+      "bom-ref": "comp-49"
+    },
+    {
+      "type": "library",
+      "name": "802_15_4_lib_iar",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "536"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "913"
+        },
+        {
+          "name": "binary:members",
+          "value": "81"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "802_15_4_lib_iar"
+        }
+      ],
+      "purl": "pkg:generic/802_15_4_lib_iar@sdk-17.1.0",
+      "bom-ref": "comp-50"
+    },
+    {
+      "type": "library",
+      "name": "Tile Tracker Library",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv6s-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "186"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "190"
+        },
+        {
+          "name": "binary:members",
+          "value": "25"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "tile_lib"
+        }
+      ],
+      "purl": "pkg:generic/tile_lib@sdk-17.1.0",
+      "supplier": {
+        "name": "Tile Inc / Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Proprietary"
+          }
+        }
+      ],
+      "description": "Tile tracker integration library",
+      "bom-ref": "comp-51"
+    },
+    {
+      "type": "library",
+      "name": "Oberon Mbed TLS Backend",
+      "version": "3.0.8",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "46"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "59"
+        },
+        {
+          "name": "binary:members",
+          "value": "8"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "oberon_mbedtls_3.0.8"
+        }
+      ],
+      "purl": "pkg:generic/oberon_mbedtls_3.0.8@3.0.8",
+      "supplier": {
+        "name": "Octo AS / Nordic Semiconductor"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "description": "Mbed TLS backend using Oberon crypto primitives",
+      "bom-ref": "comp-52"
+    },
+    {
+      "type": "library",
+      "name": "nRF CC310 Crypto Library",
+      "version": "0.9.13",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "138"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "106"
+        },
+        {
+          "name": "binary:members",
+          "value": "26"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "nrf_cc310_bl_0.9.13"
+        }
+      ],
+      "purl": "pkg:generic/nrf_cc310_bl_0.9.13@0.9.13",
+      "supplier": {
+        "name": "Nordic Semiconductor / ARM"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Proprietary"
+          }
+        }
+      ],
+      "description": "ARM CryptoCell 310 driver for nRF52/nRF53",
+      "bom-ref": "comp-53"
+    },
+    {
+      "type": "library",
+      "name": "nRF CC310 Crypto Library",
+      "version": "0.9.13",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "327"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "588"
+        },
+        {
+          "name": "binary:members",
+          "value": "93"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "nrf_cc310_0.9.13"
+        }
+      ],
+      "purl": "pkg:generic/nrf_cc310_0.9.13@0.9.13",
+      "supplier": {
+        "name": "Nordic Semiconductor / ARM"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "Proprietary"
+          }
+        }
+      ],
+      "description": "ARM CryptoCell 310 driver for nRF52/nRF53",
+      "bom-ref": "comp-54"
+    },
+    {
+      "type": "library",
+      "name": "arm_cortexM4lf_math",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "449"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "540"
+        },
+        {
+          "name": "binary:members",
+          "value": "272"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "arm_cortexM4lf_math"
+        }
+      ],
+      "purl": "pkg:generic/arm_cortexM4lf_math@sdk-17.1.0",
+      "bom-ref": "comp-55"
+    },
+    {
+      "type": "library",
+      "name": "arm_cortexM4l_math",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "449"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "702"
+        },
+        {
+          "name": "binary:members",
+          "value": "272"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "arm_cortexM4l_math"
+        }
+      ],
+      "purl": "pkg:generic/arm_cortexM4l_math@sdk-17.1.0",
+      "bom-ref": "comp-56"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf51_arm",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv6s-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "223"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "133"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf51_arm"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf51_arm@sdk-17.1.0",
+      "bom-ref": "comp-57"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf51_sd_resources_arm",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv6s-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "223"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "133"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf51_sd_resources_arm"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf51_sd_resources_arm@sdk-17.1.0",
+      "bom-ref": "comp-58"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52840_arm",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "236"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "137"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52840_arm"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52840_arm@sdk-17.1.0",
+      "bom-ref": "comp-59"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52840_sd_resources_arm",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "236"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "137"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52840_sd_resources_arm"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52840_sd_resources_arm@sdk-17.1.0",
+      "bom-ref": "comp-60"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52_arm",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "236"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "137"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52_arm"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52_arm@sdk-17.1.0",
+      "bom-ref": "comp-61"
+    },
+    {
+      "type": "library",
+      "name": "gzll_nrf52_sd_resources_arm",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "236"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "137"
+        },
+        {
+          "name": "binary:members",
+          "value": "10"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "gzll_nrf52_sd_resources_arm"
+        }
+      ],
+      "purl": "pkg:generic/gzll_nrf52_sd_resources_arm@sdk-17.1.0",
+      "bom-ref": "comp-62"
+    },
+    {
+      "type": "library",
+      "name": "802_15_4_lib_keil",
+      "version": "sdk-17.1.0",
+      "properties": [
+        {
+          "name": "binary:format",
+          "value": "elf32-littlearm"
+        },
+        {
+          "name": "binary:architecture",
+          "value": "armv7e-m,"
+        },
+        {
+          "name": "binary:defined_symbols",
+          "value": "843"
+        },
+        {
+          "name": "binary:undefined_symbols",
+          "value": "924"
+        },
+        {
+          "name": "binary:members",
+          "value": "81"
+        },
+        {
+          "name": "binary:original_filename",
+          "value": "802_15_4_lib_keil"
+        }
+      ],
+      "purl": "pkg:generic/802_15_4_lib_keil@sdk-17.1.0",
+      "bom-ref": "comp-63"
+    }
+  ]
+}
